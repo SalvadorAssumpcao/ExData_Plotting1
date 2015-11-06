@@ -1,3 +1,40 @@
+## Addendum 
+This is a short addendum to the master repository README.md file, describing briefly the content submitted as part of the first course project (plotting) for the Exploratory Data Analysis class on Coursera/JHPU Data Science track 
+
+### Folder content
+The following files were added or modified in relation to the master repo:
+
+* README.md (this file)
+
+* plot1.R, plot2.R, plot3.R, plot4.R - the R scripts which produce the requested plots. See comments in each file for more detail
+
+* plot1.png, plot2.png, plot3.png, plot4.png - the 4 plots requested
+
+### Steps to run the scripts
+1. Download the plotX.R file of interest
+
+    "git clone" the repo will work, and download all of them
+
+2. Just run the script of interest, for example:
+    'source("plot1.R")'
+
+### What the scripts produce
+1. Create or update the following files in the working directory
+
+    1. A "plotX.png" file with the plot, corresponding to the script run
+    2. "household_power_consumption.zip" - the zipped version of the raw data, downloaded each time by the scripts
+    3. "household_power_consumption.txt"  - the unzipped version of the file above
+
+2. A function called "get_power_data()" in the global scope. Please see the source code for details
+
+3. A data frame called "power_data" in global scope, used in all plots. Please see the source code for details
+
+
+
+
+The master repo content for this readme follows....
+
+
 ## Introduction
 
 This assignment uses data from
